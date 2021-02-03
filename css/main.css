@@ -99,6 +99,7 @@ textarea {
 html {
   background-color: grey;
   height: 100%;
+  width: 100%;
 }
 
 body {
@@ -112,11 +113,31 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+header {
+    font-size: 2.5em;
+    padding-bottom: .5em;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-size: 2.5em;
+  padding-top: 1em;
+}
+
+main {
+  font-size: 1.5em;
+  padding-bottom: 1em;
+}
+
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
